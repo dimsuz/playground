@@ -1,6 +1,5 @@
 buildscript {
-    // __LATEST_COMPOSE_RELEASE_VERSION__
-    val composeVersion = System.getenv("COMPOSE_TEMPLATE_COMPOSE_VERSION") ?: "1.0.0-alpha4-build328"
+    val composeVersion = "1.0.0-alpha4-build328"
 
     repositories {
         mavenCentral()
