@@ -1,1 +1,1 @@
-include(":common", ":android", ":desktop")
+include(":shared", ":android", ":desktop")
