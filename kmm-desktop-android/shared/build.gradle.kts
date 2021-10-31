@@ -23,18 +23,18 @@ kotlin {
         named("androidMain") {
             dependencies {
                 api("androidx.appcompat:appcompat:1.3.1")
-                api("androidx.core:core-ktx:1.6.0")
+                api("androidx.core:core-ktx:1.7.0")
             }
         }
     }
 }
 
 android {
-    compileSdkVersion(30)
+    compileSdkVersion(31)
 
     defaultConfig {
         minSdkVersion(21)
-        targetSdkVersion(30)
+        targetSdkVersion(31)
         versionCode = 1
         versionName = "1.0"
     }
